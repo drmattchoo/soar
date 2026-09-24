@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Page not found — SOAR Lab</title>
+  <meta name="robots" content="noindex">
+  <!--
+    This page keeps its own small copy of the styles (below) instead of
+    loading style.css. GitHub shows this page at whatever broken address
+    a visitor typed, so a relative link to style.css could fail there.
+    The home link points to the fixed site address for the same reason.
+    If you change the site's colours in style.css, copy them here too.
+  -->
+  <style>
+    :root {
+      --color-bg: #ffffff;
+      --color-text: #1a1a1a;
+      --color-muted: #555a62;
+      --color-rule: #e2e4e8;
+      --color-accent: #1b2a4a;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --color-bg: #121519;
+        --color-text: #e6e8eb;
+        --color-muted: #a7adb6;
+        --color-rule: #2c323a;
+        --color-accent: #a9bde3;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--color-bg);
+      color: var(--color-text);
+      font-family: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+      font-size: 1.0625rem;
+      line-height: 1.65;
+    }
+    .container { max-width: 46rem; margin: 0 auto; padding: 0 1rem; }
+    .site-header, .site-footer { border-color: var(--color-rule); border-style: solid; border-width: 0; }
+    .site-header { border-bottom-width: 1px; }
+    .site-header .container { display: flex; align-items: center; min-height: 3.5rem; }
+    .site-footer { border-top-width: 1px; padding: 1.75rem 0 3rem; font-size: 0.9375rem; color: var(--color-muted); }
+    .site-footer p { margin: 0 0 0.5rem; }
+    .wordmark { font-weight: 600; font-size: 1.125rem; color: var(--color-accent); text-decoration: none; }
+    main { padding: 5rem 0; }
+    h1 { font-size: 2rem; font-weight: 600; line-height: 1.25; margin: 0 0 1rem; }
+    a { color: var(--color-accent); text-underline-offset: 0.2em; }
+    :focus-visible { outline: 3px solid var(--color-accent); outline-offset: 3px; }
+  </style>
+  <!-- favicon uses the full address so it works on any broken URL -->
+  <link rel="icon" href="https://drmattchoo.github.io/soar/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+
+  <!-- ==================== Header ==================== -->
+  <header class="site-header">
+    <div class="container">
+      <!-- EDIT HERE: home address (change if you move to a custom domain) -->
+      <a class="wordmark" href="https://drmattchoo.github.io/soar/">SOAR Lab</a>
+      <!-- END EDIT -->
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <h1>Page not found</h1>
+      <!-- EDIT HERE: not-found message and home link -->
+      <p>The page you were looking for does not exist.</p>
+      <p><a href="https://drmattchoo.github.io/soar/">Go to the SOAR Lab home page</a></p>
+      <!-- END EDIT -->
+    </div>
+  </main>
+
+  <!-- ==================== Footer ==================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <!-- EDIT HERE: footer text -->
+      <p>© 2026 SOAR Lab — Space, Operational &amp; Aviation Research Laboratory</p>
+      <p>Department of Physiology, Faculty of Medicine, Khon Kaen University</p>
+      <!-- END EDIT -->
+    </div>
+  </footer>
+
+</body>
+</html>
